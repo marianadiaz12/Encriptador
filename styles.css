@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F3F5FC; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  width: 80%;
+  max-width: 1200px;
+  height: 80%;
+  border-radius: 10px;
+  background-color: #ffffff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  margin-bottom: 20px; 
+}
+
+.left-container {
+  flex: 1;
+  background-color: #bbdefb; 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+}
+
+.right-container {
+  flex: 1; 
+  background-color: #e3f2fd; 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  justify-content: center;
+  margin-left: auto; 
+}
+
+input[type="text"] {
+  width: calc(100% - 20px); 
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #1976d2; 
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.btn_encriptar {
+  background-color: #356EA9; 
+  color: white;
+}
+
+.btn_desencriptar{
+  background-color: #d8dfe8; 
+  border-color: #356EA9 ;  
+}
+
+.btn{
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 16px;
+}
+
+img {
+    margin: 0 auto 20px; 
+    display: block;
+    width: 200px;
+    height: auto;
+}
+
+footer {
+  padding: 10px 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+footer p {
+  margin: 0;
+  color: #1976d2; 
+  font-size: 14px;
+}
+
+.mensaje{
+  margin: 9px;
+  padding-top: 10px;
+  font-size: 10px;
+}
+
+.logo{
+  margin-left: 0px;
+  margin-bottom: 160px; 
+  display: block;
+  width: 100px;
+  height: auto;
+}

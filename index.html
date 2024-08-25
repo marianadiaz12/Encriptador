@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="left-container">
+            <img class= "logo" src="img/Logo.png" alt="Logo Alura">
+            <h1>Encriptador de Texto</h1>
+            <input type="text" id="texto" placeholder="Ingresa tu texto aquí...">
+            <div >
+                <p class="mensaje">Solo letras minúsculas y sin acentos</p>
+                <button class = "btn_encriptar btn" onclick="btnEncriptar()">Encriptar</button>
+                <button class = "btn_desencriptar btn" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+        </div>
+        <div class="right-container">
+            <img src="img/Muñeco.png" alt="Muñeco">
+            <input type="text" id="resultado" readonly placeholder="El Texto Encriptado/desencriptado aparecera aqui...">
+            <button class = "btn" onclick="copyToClipboard()">Copiar</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Encriptador de Texto. Todos los derechos reservados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
